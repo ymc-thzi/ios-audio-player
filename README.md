@@ -1,4 +1,4 @@
-iosaudioplayer
+ios-audio-player
 ==============
 
 iOS-AudioPlayer
