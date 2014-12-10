@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274B24811A38414F006C1B5F /* tex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 274B24801A38414F006C1B5F /* tex.jpg */; };
 		27819B4317BA18C70057E47C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27819B4217BA18C70057E47C /* Foundation.framework */; };
 		27819B4517BA18C70057E47C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27819B4417BA18C70057E47C /* CoreGraphics.framework */; };
 		27819B4717BA18C70057E47C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27819B4617BA18C70057E47C /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		274B24801A38414F006C1B5F /* tex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tex.jpg; sourceTree = "<group>"; };
 		27819B3F17BA18C70057E47C /* AudioPlayerTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayerTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27819B4217BA18C70057E47C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27819B4417BA18C70057E47C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -136,6 +138,7 @@
 		27819B4917BA18C70057E47C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				274B24801A38414F006C1B5F /* tex.jpg */,
 				27FD548E17BA496F00086300 /* audiofile.mp3 */,
 				2790FD6A17BA1A5000CF38B4 /* audioplayer_play.png */,
 				2790FD6B17BA1A5000CF38B4 /* audioplayer_pause.png */,
@@ -254,6 +257,7 @@
 				27819B5617BA18C70057E47C /* Main_iPhone.storyboard in Resources */,
 				27819B4D17BA18C70057E47C /* InfoPlist.strings in Resources */,
 				27FD548F17BA496F00086300 /* audiofile.mp3 in Resources */,
+				274B24811A38414F006C1B5F /* tex.jpg in Resources */,
 				2790FD6D17BA1A5000CF38B4 /* audioplayer_pause.png in Resources */,
 				2790FD6C17BA1A5000CF38B4 /* audioplayer_play.png in Resources */,
 			);
