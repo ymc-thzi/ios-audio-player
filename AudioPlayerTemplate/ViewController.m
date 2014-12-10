@@ -22,6 +22,14 @@
 }
 
 /*
+ * Hide the statusbar
+ */
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
+/*
  * Setup the AudioPlayer with
  * Filename and FileExtension like mp3
  * Loading audioFile and sets the time Labels
