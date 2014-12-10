@@ -35,6 +35,13 @@
 }
 
 /*
+ * get playingState
+ */
+- (BOOL)isPlaying {
+    return [self.audioPlayer isPlaying];
+}
+
+/*
  * Format the float time values like duration
  * to format with minutes and seconds
  */

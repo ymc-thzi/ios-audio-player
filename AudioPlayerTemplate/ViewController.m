@@ -100,6 +100,14 @@
     
     self.duration.text = [NSString stringWithFormat:@"-%@",
                           [self.audioPlayer timeFormat:[self.audioPlayer getAudioDuration] - [self.audioPlayer getCurrentAudioTime]]];
+    
+    //When resetted/ended reset the playButton
+    if (![self.audioPlayer isPlaying]) {
+        [self.playButton setBackgroundImage:[UIImage imageNamed:@"audioplayer_play.png"]
+                                   forState:UIControlStateNormal];
+        [self.audioPlayer pauseAudio];
+        self.isPaused = FALSE;
+    }
 }
 
 /*

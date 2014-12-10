@@ -17,6 +17,7 @@
 - (void)initPlayer:(NSString*) audioFile fileExtension:(NSString*)fileExtension;
 - (void)playAudio;
 - (void)pauseAudio;
+- (BOOL)isPlaying;
 - (void)setCurrentAudioTime:(float)value;
 - (float)getAudioDuration;
 - (NSString*)timeFormat:(float)value;
